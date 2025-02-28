@@ -86,6 +86,7 @@ int main() {
         printf("\nResultado: Empate!\n\n");
     }
 
+    // Menu de escolha de atributo para comparação
     printf("----- MENU DE COMPARAÇÃO -----\n\n");
 
     printf("[1] - População\n");
@@ -96,6 +97,7 @@ int main() {
     printf("Escolha uma das opções: ");
     scanf("%d", &opcao);
 
+    // Comparação dos atributos
     switch (opcao) {
         case 1:
             printf("População da ");
