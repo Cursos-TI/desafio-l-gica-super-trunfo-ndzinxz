@@ -83,6 +83,8 @@ int main() {
     else {
         printf("\nResultado: Empate!\n");
     }
+
+    
     
     return 0;
 }
